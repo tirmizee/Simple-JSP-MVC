@@ -52,12 +52,12 @@ public class DBUtil {
 	}
 	
 	public static void closeConnection( Connection closeCon ) {
-        try{
-        	 if(closeCon != null ){
-        		 closeCon.close();
-        	 }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+		try{
+			 if(closeCon != null ){
+				 closeCon.close();
+			 }
+		} catch (SQLException e) {
+		    e.printStackTrace();
+		}
 	}
 }
