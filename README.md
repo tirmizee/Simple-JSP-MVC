@@ -1,2 +1,2 @@
 # Simple-JSP-MVC
-Simple jsp web application
+Simple web MVC with servlets and JSP
