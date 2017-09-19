@@ -38,9 +38,4 @@ public class AdminServlet extends HttpServlet {
 		response.sendRedirect(request.getContextPath());
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		LOGGER.debug("Admin doPost()");
-		doPost(request, response);
-		
-	}
 }
