@@ -23,14 +23,11 @@ public class AuthenServlet extends HttpServlet {
 	private UserDao userService; 
 
 	public AuthenServlet() {
-        super();
-        userService = new UserDaolmp();
-    }
-
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		LOGGER.debug("Authen doGet()");
-		response.sendRedirect(request.getContextPath());
+		super();
+		userService = new UserDaolmp();
 	}
+
+	
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		LOGGER.debug("Authen doPost()");
