@@ -32,8 +32,6 @@ public class UserServlet extends HttpServlet {
 		response.sendRedirect(request.getContextPath());
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
-	}
+	
 
 }
